@@ -12,5 +12,10 @@
   ],
   "require": {
     "maximebf/debugbar": "^1.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sumish\\": "src/Sumish"
+    }
   }
 }
