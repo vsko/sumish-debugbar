@@ -8,8 +8,8 @@ class DebugBar extends \DebugBar\StandardDebugBar {
     public function __construct(Container $container) {
         $this->container = $container;
 
-        $this->addCollector(new \Sumish\DebugBar\InfoCollector());
-        $this->addCollector(new \Sumish\DebugBar\SystemCollector());
+        $this->addCollector(new \Sumish\DebugBar\DataCollector\InfoCollector());
+        $this->addCollector(new \Sumish\DebugBar\DataCollector\SystemCollector());
         $this->addCollector(new \DebugBar\DataCollector\ConfigCollector());
         $this->init();
 
