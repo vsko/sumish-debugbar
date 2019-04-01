@@ -1,0 +1,16 @@
+{
+  "name": "sumish/debugbar",
+  "type": "library",
+  "description": "Displays a debug bar in the browser based PHP Debug Bar",
+  "keywords": ["bug", "debug", "debugbar"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaliy Skorobagatko",
+      "email": "info@zoom.net.ua"
+    }
+  ],
+  "require": {
+    "maximebf/debugbar": "^1.15",
+  }
+}
