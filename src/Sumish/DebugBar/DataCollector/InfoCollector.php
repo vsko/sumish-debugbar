@@ -1,6 +1,6 @@
 <?php
 
-namespace Sumish\Debugbar;
+namespace Sumish\DebugBar;
 
 use \DebugBar\DataCollector\DataCollector as DataCollector;
 use \DebugBar\DataCollector\Renderable as Renderable;
