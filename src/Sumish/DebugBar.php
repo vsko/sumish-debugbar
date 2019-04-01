@@ -2,14 +2,14 @@
 
 namespace Sumish;
 
-class Debugbar extends \DebugBar\StandardDebugBar {
+class DebugBar extends \DebugBar\StandardDebugBar {
     protected $container;
 
     public function __construct(Container $container) {
         $this->container = $container;
 
-        $this->addCollector(new \Sumish\Debugbar\InfoCollector());
-        $this->addCollector(new \Sumish\Debugbar\SystemCollector());
+        $this->addCollector(new \Sumish\DebugBar\InfoCollector());
+        $this->addCollector(new \Sumish\DebugBar\SystemCollector());
         $this->addCollector(new \DebugBar\DataCollector\ConfigCollector());
         $this->init();
 
